@@ -9,8 +9,8 @@
     },
     {
       "id": 2,
-      "age": "Over 80 years",
-      "insuranceType": "Single Trip",
+      "age": ["Over 80 years"],
+      "insuranceType": ["Single Trip"],
       "tripLength": ["Between 3 - 6 months"],
       "treatmentStage": [
         "I am going abroad for medical treatment or surgery",
@@ -26,6 +26,20 @@
         "I am on a waiting list at home for treatment or surgery",
         "I am going abroad for medical treatment or surgery"
       ]
+    },
+    {
+      "id": 4,
+      "age": ["Under 18 years"],
+      "insuranceType": ["Single Trip"],
+      "tripLength": ["Between 1 - 3 months"],
+      "treatmentStage": ["My doctor has given me a terminal prognosis"]
+    },
+    {
+      "id": 5,
+      "age": ["Over 80 years"],
+      "insuranceType": ["Annual Multi-Trip"],
+      "tripLength": ["Over 6 months"],
+      "treatmentStage": ["My doctor has given me a terminal prognosis"]
     }
   ]
 }
